@@ -9,6 +9,10 @@
 * D. Azure Log Analytics
 
 3) Azure policies provide a common platform for deploying objects to a cloud infrastructure and for implementing consistency across the Azure environment. Instructions: Review the underlined text. If it makes the statement correct, select “No change is needed”. If the statement is incorrect, select the answer choice that makes the statement correct.
+* A. No change is needed
+* B. Resource groups provide
+* C. Azure Resource Manager provides
+* D. Management groups provide
 
 4) What should the company use to build, test, and deploy predictive analytics solutions? Your company plans to deploy an Artificial Intelligence (AI) solution in Azure. What should the company use to build, test, and deploy predictive analytics solutions?
 * A. Azure Logic Apps
@@ -20,7 +24,7 @@
 * A. an Azure SQL database
 * B. a virtual machine data disk
 * C. a Files service in a storage account
-* D. […]
+* D. a Blobs service in a storage account
 
 6) You have an Azure environment that contains 10 virtual networks and 100 virtual machines. You need to limit the amount of inbound traffic to all the Azure virtual networks. What should you create?
 * A. one network security group (NSG)
@@ -43,19 +47,35 @@
 10) You have an on-premises network that contains 100 servers. You need to recommend a solution that provides additional resources to your users. The solution must minimize capital and operational expenditure costs. What should you include in the recommendation?
 * A. a complete migration to the public cloud
 * B. an additional data center
-* C. a private cloud […]
+* C. a private cloud
+* D. a hybrid cloud
 
 11) You plan to migrate a web application to Azure. The web application is accessed by external users. You need to recommend a cloud deployment solution to minimize the amount of administrative effort used to manage the web application. What should you include in the recommendation?
 * A. software as a service (SaaS)
-* B. platform as a […]
+* B. platform as a service (PaaS)
+* C. infrastructure as a service (IaaS)
+* D. database as a service (DaaS)
 
-12) Your company hosts an accounting named App1 that is used by all the customers of the company. App1 has low usage during the first three weeks of each month and very high usage during the last week of each month. Which benefit of Azure Cloud Services supports cost management for this type of usage pattern? […]
+12) Your company hosts an accounting named App1 that is used by all the customers of the company. App1 has low usage during the first three weeks of each month and very high usage during the last week of each month. Which benefit of Azure Cloud Services supports cost management for this type of usage pattern?
+* A. high availability
+* B. high latency
+* C. elasticity
+* D. load balancing
 
-13) Your company plans to migrate all its data and resources to Azure. The company’s migration plan states that only platform as a service (PaaS) solutions must be used in Azure. You need to deploy an Azure environment that supports the planned migration. Solution: You create an Azure App Service and Azure Storage accounts. Does this […]
+13) Your company plans to migrate all its data and resources to Azure. The company’s migration plan states that only platform as a service (PaaS) solutions must be used in Azure. You need to deploy an Azure environment that supports the planned migration. Solution: Solution: You create an Azure App Service and Azure Storage accounts. Does this meet the goal?
+* A. Yes
+* B. No
 
-14) Your company plans to migrate all its data and resources to Azure. The company’s migration plan states that only platform as a service (PaaS) solutions must be used in Azure. You need to deploy an Azure environment that supports the planned migration. Solution: You create an Azure App Service and Azure virtual machines that have […]
+14) Your company plans to migrate all its data and resources to Azure. The company’s migration plan states that only platform as a service (PaaS) solutions must be used in Azure. You need to deploy an Azure environment that supports the planned migration. Solution: You create an Azure App Service and Azure virtual machines that have Microsoft SQL Server installed.
+Does this meet the goal?
+* A. Yes
+* B. No
 
-15) Your company plans to migrate all its data and resources to Azure. The company’s migration plan states that only platform as a service (PaaS) solutions must be used in Azure. You need to deploy an Azure environment that supports the planned migration. Solution: You create an Azure App Service and Azure SQL databases. Does this […]
+15) Your company plans to migrate all its data and resources to Azure. The company’s migration plan states that only platform as a service (PaaS) solutions must be used in Azure. You need to deploy an Azure environment that supports the planned migration.
+Solution: You create an Azure App Service and Azure SQL databases.
+Does this meet the goal?
+* A. Yes
+* B. No
 
 16) When planning to migrate a public website to Azure, you must plan to pay monthly usage costs. Instructions: Review the underlined text. If it makes the statement correct, select “No change is needed”. If the statement is incorrect, select the answer choice that makes the statement correct.
 * A. No change is needed
