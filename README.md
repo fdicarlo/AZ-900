@@ -38,47 +38,38 @@ There are three different types of Cloud Computing: Public, Private and Hybrid.
 - A private cloud is a model that uses the same legacy IT infrastructure running cloud resources within its own data center
 - Hybrid Clouds integrate public and private clouds together with the technology to share data and applications. The hybrid cloud provides greater versatility and allows further deployment
 
-#### What is Azure?
-Microsoft Azure is known as Windows Azure and it is a Public Cloud. It is
-free to build, manage and deploy applications with your favorite tools and
-frames in a huge, global network. Azure is considered for offering both IaaS
-and PaaS. Azure offers over 100 services, from the execution of existing
-applications on virtual machines to exploration of new tech paradigms like
-smart bots and mixed reality.
-In order to use Azure, you first need to setup an Azure account directly by
-going to “Azure.com” or with the help of a representative. You can sign-up to
+### What is Azure?
+Microsoft Azure is known as Windows Azure and it is a Public Cloud. It is free to build, manage and deploy applications with your favorite tools and
+frames in a huge, global network. Azure is considered for offering both IaaS and PaaS. Azure offers over 100 services, from the execution of existing
+applications on virtual machines to exploration of new tech paradigms like smart bots and mixed reality.
+
+In order to use Azure, you first need to setup an Azure account directly by going to “Azure.com” or with the help of a representative. You can sign-up to
 Azure as a Free account with free USD 200 credit and 25+ free services.
-Azure Market Place
-The Azure market place offers technical solutions and services from
-Microsoft and partners to build and extend Azure products and services. It
-has all kinds of services and applications like VMs, templates, apps, and
-Azure managed services etc.
-Global Footprint
-Azure has more global regions than any other cloud provider — which offers
-the scale required to bring users around the world closer to applications.
-There are 58 regions of Azure that are available around the world with 140
-available in 140 countries.
-Regions
-Regions are geographical areas where Azure is present to deploy the Azure
-resources. It is a set of data centers with latency-defined perimeter connected
-via a dedicated regional low-latency network.
-How to Choose a Region?
+
+#### Azure Market Place
+The Azure market place offers technical solutions and services from Microsoft and partners to build and extend Azure products and services. It
+has all kinds of services and applications like VMs, templates, apps, and Azure managed services etc.
+
+#### Global Footprint
+Azure has more global regions than any other cloud provider — which offers the scale required to bring users around the world closer to applications.
+There are 58 regions of Azure that are available around the world with 140 available in 140 countries.
+
+### Regions
+Regions are geographical areas where Azure is present to deploy the Azure resources. It is a set of data centers with latency-defined perimeter connected
+via a dedicated regional low-latency network. How to Choose a Region?
 When you are choosing a region, you need to think about three things mainly:
-Location
-Features
-Price
-Geographies/Paired Regions
-Geography is a distinct market that usually conserves data residence and
-compliance boundaries with two or more regions within the same geographic
-area.
-Availability Set
-An Availability Set is a logical grouping function that can be used to separate
-VM resources from each other.
-Availability Zone
-Availability Zones (AZ) are locations within an Azure region that are
-physically separate. An availability zone is composed of one or more
-independently operating power, and network data centers. Each region has a
-minimum of three zones.
+- Location
+- Features
+- Price
+
+#### Geographies/Paired Regions
+Geography is a distinct market that usually conserves data residence and compliance boundaries with two or more regions within the same geographic area.
+#### Availability Set
+An Availability Set is a logical grouping function that can be used to separate VM resources from each other.
+#### Availability Zone
+Availability Zones (AZ) are locations within an Azure region that are physically separate. An availability zone is composed of one or more
+independently operating power, and network data centers. Each region has a minimum of three zones.
+
 Azure Resource Manager (ARM)
 It is an underlying service where the Azure resource deployment and
 management is done. It provides a management layer, which lets you create,
