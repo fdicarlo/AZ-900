@@ -55,6 +55,8 @@ Azure has more global regions than any other cloud provider — which offers the
 There are 58 regions of Azure that are available around the world with 140 available in 140 countries.
 
 ### Regions
+![region](.../images/az-graphic-two.png)
+
 Regions are geographical areas where Azure is present to deploy the Azure resources. It is a set of data centers with latency-defined perimeter connected
 via a dedicated regional low-latency network. How to Choose a Region?
 When you are choosing a region, you need to think about three things mainly:
