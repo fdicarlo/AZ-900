@@ -242,41 +242,152 @@ A load balancer is used in front of two VMs to access the data before reaching t
 ![VPN](/images/vpn.png)
 
 VPN Stands for Virtual Private Network, a VPN gateway is useful for establishing the private connection between Azure resource and an onpremises environment, offices, the cloud or other premises within the cloud in order to establish a private secure connection. In Microsoft Azure, VPN gateway provides the managed services within the cloud.
+#### Virtual Network Gateway 
+VPN gateway is a specific type of virtual network gateway. A virtual network gateway is composed of a number of Virtual Machines (VMs) within the specific subnet called Gateway Subnet.
+#### Components of VPN Gateway
+The main components of the VPN gateway consist of Azure VNet, VPN gateway, VPN tunnel, and on-premises services. Within Azure VNet, there is a VPN gateway present.
+### Application Gateway
+One type of VPN gateway is the application gateway. It is considered as the most advanced load balancer that enables the balancing of web traffic to manage the web applications using an HTTP request. Because of its services, the gateway is called layer 7 load balancer within Microsoft Azure.
+#### Benefits of Application Gateway
+- Scaling
+- High Availability
+- Encryption
+- Zone Redundancy
+- SSL Offload
+- Multi-Site hosting
+- Cost effective
+- Session affinity
+- Web Socket Support
+- Web Application Firewall
+### Content Delivery Network
+It is a distributed network of servers that can deliver web content close to users. Within Azure, CDN places the duplicates of data at the datacenter present closer to the user side and users can easily log into the application, which they want.
+The main reason behind the use of Content Delivery Network (CDN) is to deliver data to the user with the lowest latency by providing data that is present at edge nodes.
+#### Benefits of CDN
+- Global Coverage
+- Better Performance
+- Scaling
+- Distribution
+## Storage
+### Storage Account
+A Storage Account is like an access point for Azure Storage. All of your Azure Storage Data Objects like blobs, files, queues, tables, and disks are on an Azure storage account. The storage account provides a unique namespace for your Azure Storage data, which is available via HTTP or HTTPS from anywhere in the world.
 
-Virtual Network Gateway 
-VPN gateway is a specific type of virtual network gateway. A virtual network
-gateway is composed of a number of Virtual Machines (VMs) within the
-specific subnet called Gateway Subnet.
-Components of VPN Gateway
-The main components of the VPN gateway consist of Azure VNet, VPN
-gateway, VPN tunnel, and on-premises services. Within Azure VNet, there is
-a VPN gateway present.
-Application Gateway
-One type of VPN gateway is the application gateway. It is considered as the
-most advanced load balancer that enables the balancing of web traffic to
-manage the web applications using an HTTP request. Because of its services,
-the gateway is called layer 7 load balancer within Microsoft Azure.
-Benefits of Application Gateway
-Scaling
-High Availability
-Encryption
-Zone Redundancy
-SSL Offload
-Multi-Site hosting
-Cost effective
-Session affinity
-Web Socket Support
-Web Application Firewall
-Content Delivery Network
-It is a distributed network of servers that can deliver web content close to
-users. Within Azure, CDN places the duplicates of data at the datacenter
-present closer to the user side and users can easily log into the application,
-which they want.
-The main reason behind the use of Content Delivery Network (CDN) is to
-deliver data to the user with the lowest latency by providing data that is
-present at edge nodes.
-Benefits of CDN
-Global Coverage
-Better Performance
-Scaling
-Distribution
+It is written in the format: https://**Storage-Account-Name**.**Storagetype**.core.windows.net
+
+Two types of storage accounts are available. Users have access to Blob Storage, Table Storage, Queue Storage, and File Storage through the "Standard" storage account. The alternative is a "Premium" account, which is a new option that allows users to save data on SSD drives to boost I/O capacity.
+
+There are 5 different types of storage account available that depends on different features and pricing. These are:
+- General-purpose v2 accounts
+- General-purpose v1 accounts
+- BlockBlobStorage accounts
+- FileStorage accounts
+- BlobStorage accounts
+
+### Azure Storage
+Azure Storage is a Microsoft Cloud storage for storing data. It is a highly scalable object store and a message store for messaging. It also offers file system service. It is a NoSQL store that provides a number of benefits like:
+- Durability
+- High Availability
+- Security
+- Accessibility
+- Scalability
+
+### Blob Storage
+Blob means Binary Large Object, which is used for storage of Binary or text data. It is used for storage of huge amounts of data. 
+In Azure, three types of Blobs are supported:
+- Block blobs store text and binary data up to 4.7TB
+- Append blobs are used for log data and can be up to 195GB in size
+- Page blobs are used for frequent read and write operations on data.
+- It sizes up to 8TB
+
+During the time of creation, you need to select the type of a storage account, which is based on different pricing options. These are:
+- Hot Tier
+- Cold Tier
+- Archive Tier
+### Disk Storage
+It is a disk to which you can store your data. A managed disk is the disk that is attached to your VM. Here, managed means that Azure will look after this disk for you and managed the uptime and backup. There are four different types of disk:
+- HDD
+- Standard SSD
+- Premium SSD
+- Ultra Disk
+### File Storage
+With File Storage, you get the following benefits:
+- Share files across multiple Azure machines and be able to connect with the on-premises infrastructure;
+- It is fully managed and you do not need to worry about OS or hardware;
+- Highly available with super resistance against outages
+- Built-in redundancy
+### Archive
+Azure Archive Storage is used generally for archiving data and paying less for it. Most of the company’s policies, legislations and recovery scenarios storing a large amount of archive data is required, so Azure Archive service can prove to be really handy for them. It is one of the lowest priced storage in Azure, which means you can store terabytes of data in just few dollars per month.
+## Databases
+There are multiple Azure Database Services provided by Azure, which are:
+- Cosmos DB
+- Azure SQL
+- Azure Database for MySQL
+- Azure Database for PostgreSQL
+### Cosmos DB
+Cosmos DB is a global service provided from the beginning. With Cosmos DB, you can put the data closest to the user. This is one of the key features with great user experience as well. To put the databases at multiple locations can be such a difficult thing with synchronization but with Cosmos DB, Azure takes care of this synchronization for you. All the data stored in Cosmos DB are encrypted at rest or in motion.
+#### Latency
+Latency is the time taken by the data to travel.
+#### Scalability
+With Cosmos DB, you can scale your database automatically to infinity when the requirement goes up in order to meet the resources.
+#### Connectivity
+With Cosmos DB, you can work in various ways like you can choose from multiple built-in ways in order to connect to Cosmos DB such as SDKs or APIs. You can also use different languages such as C#, Java or Node.js.
+### Azure SQL
+It is a managed Database as a Service, as another service in Azure takes care of hardware and IaaS levels. A cloud-based Database Management System (DBMS) is provided in the Microsoft Azure SQL Database. With Azure SQL, you can easily migrate your on-premises SQL database to Azure SQL and get benefits of that. With Azure SQL, you can store 100TB of data within a minute.
+#### Integrated with ML
+With Azure SQL, you can also take advantage of integrated Machine Learning tools.
+#### Scalability
+As it is a cloud based service, it also offers excellent scalability through which you get high availability. And, it gives 99.995% availability.
+#### Security
+With Azure Cloud Platform, security is a built-in feature that gives you benefit in terms of security of your data.
+### Azure Database for MySQL
+Azure Database for MySQL is the database built-in by the community while Azure SQL is Microsoft’s product. Azure MySQL platform provides a fully managed, business-ready MySQL cloud database. Azure Server for MySQL was designed to provide high availability with 99.99% SLA and does not require additional setup, replica features or costs to guarantee that your apps run as necessary. It has automated batching and backup with monitoring. All of these are included without any cost. Azure database for MySQL is PaaS, which is managed by Microsoft.
+### Azure Database for PostgreSQL
+It is an open source relational database similar to MySQL. It is a defaultdatabase from MacOS. It is good for mission-critical workloads with predictable performance, security, high availability, and dynamic scalability.
+#### Features
+- You can integrate this database with lots of extensions like JSONB (Binary version of JSON), and integration with code like Ruby, Python, etc.
+- Horizontal scaling
+- It has a feature that detects the disruptive events that effect performance on which you can perform actions
+- Similar to Azure Database for MySQL, it also offers fully managed database services like automatic patching, automatic backups, and built-in monitoring
+### Database Migration Service
+In Azure, you have a dedicated tool for migrating databases from onpremises to Azure. With a single tool, you can move your existing SQL server; there is no need to use multiple tools. The Azure Server Migration Service is a fully managed program that permits smooth migration to Azure Data systems with minimal downtime from various server providers.
+The service is currently available in general, with ongoing efforts for growth focused on:
+- Reliability and performance
+- Addition on source/target pairs
+- For friction, free migration used for continuous investment
+## Authentication & Authorization
+Authentication and Authorization in Azure includes:
+- **Identity Services**: Identity services identify the platform for the user and ensures user validations for the application;
+- **Azure Active Directory**: This directory service is able to provide access and control of access to users with different directory services;
+- **Multi-Factor Authentication**: Provides security features by getting multiple information about the user for authentication.
+### Identity Services
+When any user uses an online service that has any privacy criteria, then the user requires at least a username (that is the User ID) and password. Identity services include authentication, authorization and access management policies.
+#### Authentication
+Authentication is a way of identifying the user with the help of a user ID and password from the database.
+#### Authorization
+Authorization is the process that is conducted after authentication. It finds which kind of data access is available for the authenticated user.
+#### Access Management
+Access management is a critical part of any cloud infrastructure as it ensures the restriction of access to service toward other users. It provides confidentiality, integrity, and availability.
+Access management policies should also be responsible for the following:
+Authentication and Authorization
+Faraway from Unauthorized Users
+### Azure Active Directory
+Azure Active Directory (AAD) is the main tool to manage and monitor the dedicated users’ information present in Microsoft Azure.
+#### Active Directory
+Active Directory (AD) is a directory service formed by Microsoft for the storage of information about the user, resources and other things present in the network. AD is commonly used in offices, educational institutes, and management departments.
+#### Azure Active Directory
+Azure Active Directory (AAD) is different from the Active Directory (AD). AD provides its directory service to those companies who designed this service. Whereas, Azure Active Directory services are available for everything present on Azure. It is the first service given when a user creates an account in Azure.
+#### AAD Services
+- Mandatory Service: Users on Microsoft Azure are unable to create an account without AAD services
+- First User: Every Azure account has the first user and owner. To become an Azure user, AAD service is needed
+#### Tenant
+A tenant is the representation of an organization in Azure. A tenant is a dedicated instance of AAD service. It is the first ADD service when a user creates an account in Azure.
+#### Subscription
+All Azure services require subscription in order to get access to using Azure resources and services.
+#### Hybrid Cloud Architecture
+Within a hybrid cloud architecture, there are some services present onpremises and some services hosted on the cloud. When a user wants to set the hybrid cloud infrastructure, AAD instance can be used in hybrid cloud architecture.
+
+There are several services that AAD uses on Azure for management purposes.
+### Multi-Factor Authentication
+Multi-Factor Authentication (MFA) provides a layer-based authentication using more than one form of authentication. MFA is recommended as a default. It is a part of AAD that enables other ways to authenticate users.
+#### How MFA Works
+Multi-Factor Authentication (MFA) conducts the authentication of the user in multiple steps. The first step is to verify the user with a user ID and password. The second step is to send a code on the user’s phone for further
+verification. The third step is the biometric verification. This step is optional.
