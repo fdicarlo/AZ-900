@@ -5,59 +5,40 @@ Azure, like Google and Amazon Cloud Platforms, is Microsoft's Cloud Platform. It
 
 ### What is Cloud Computing?
 Cloud Computing is basically storing data and accessing the computers over the internet. It is the delivery of different computing services like servers, software, analytics, databases, and storage via the internet.
-Benefits of Cloud Computing
+
+#### Benefits of Cloud Computing
 We all know that Cloud Computing has brought a major change in the traditional business thinking for IT resources. There are many benefits of using Cloud Computing. Some of which are:
 - Cost
 - Scalability
 - Increase Speed and Agility
 - Reliability
 - Security
-The Economy of Cloud Computing
-In the traditional environment of organizations, as there is a need for large
-investments on CapEx, Cloud is the best wayto switch to the pay-as-you-go
-model. Mostly in Azure, the pricing is based on an hourly basis like VMs,
-App Services, etc. There is also consumption based pricing which is on the
-basis of per execution of function, per second use of resource, or both. An
-example of consumption based pricing is Azure Function.
-Technical Terms
-In order to understand Cloud Computing, you need to understand some
-technical terms.
-High Availability (HA) - you get high availability for your servers
-by replacing instantly the failed server with the new one. HA
-depends on the number of VMs that you set up to eventually cover
-in case one goes down
-Fault Tolerance - Fault tolerance means that if there is any fault
-from the Azure side, then it is immediately mitigated by Azure
-itself with zero down time
-Disaster Recovery (DR) - In case of any catastrophic disaster like
-cyber-attack, there is a plan in DR to recover your business from
-these critical systems or in normal operation if such an event
-occurs
-Scalability - In cloud computing, scalability means addition or
-removal of the resources in an easy and quick way as per demand
-Elasticity - Elasticity is the capacity to dynamically extend or
-minimize network resources to respond to autonomous working
-load adjustments and optimize the use of resources
-Agility - Agility is the capability to adapt quickly and efficiently to
-changes in the business environment. Agility also refers to the
-ability to quickly develop, test and deploy business-led software
-applications
-Types of Cloud Computing
-IAAS (Infrastructure as a Service)
-PAAS (Platform as a Service)
-Serverless
-SAAS (Software as a Service)
-Cloud Computing Deployments Models
-There are three different types of Cloud Computing: Public, Private and
-Hybrid.
-Public cloud is owned and operated by third parties that are
-providing computing services like storage, software etc.
-A private cloud is a model that uses the same legacy IT
-infrastructure running cloud resources within its own data center
-Hybrid Clouds integrate public and private clouds together with the
-technology to share data and applications. The hybrid cloud
-provides greater versatility and allows further deployment
-What is Azure?
+
+#### The Economy of Cloud Computing
+In the traditional environment of organizations, as there is a need for large investments on CapEx, Cloud is the best wayto switch to the pay-as-you-go model. Mostly in Azure, the pricing is based on an hourly basis like VMs, App Services, etc. There is also consumption based pricing which is on the basis of per execution of function, per second use of resource, or both. An example of consumption based pricing is Azure Function.
+
+#### Technical Terms
+In order to understand Cloud Computing, you need to understand some technical terms.
+- **High Availability (HA)** - you get high availability for your servers by replacing instantly the failed server with the new one. HA depends on the number of VMs that you set up to eventually cover in case one goes down
+- **Fault Tolerance** - Fault tolerance means that if there is any fault from the Azure side, then it is immediately mitigated by Azure itself with zero down time 
+- **Disaster Recovery (DR)** - In case of any catastrophic disaster like  cyber-attack, there is a plan in DR to recover your business from these critical systems or in normal operation if such an event occurs
+- **Scalability** - In cloud computing, scalability means addition or removal of the resources in an easy and quick way as per demand
+- **Elasticity** - Elasticity is the capacity to dynamically extend or minimize network resources to respond to autonomous working load adjustments and optimize the use of resources
+- **Agility** - Agility is the capability to adapt quickly and efficiently to changes in the business environment. Agility also refers to the ability to quickly develop, test and deploy business-led software applications
+
+#### Types of Cloud Computing
+- IAAS (Infrastructure as a Service)
+- PAAS (Platform as a Service)
+- Serverless
+- SAAS (Software as a Service)
+
+#### Cloud Computing Deployments Models
+There are three different types of Cloud Computing: Public, Private and Hybrid.
+- Public cloud is owned and operated by third parties that are providing computing services like storage, software etc.
+- A private cloud is a model that uses the same legacy IT infrastructure running cloud resources within its own data center
+- Hybrid Clouds integrate public and private clouds together with the technology to share data and applications. The hybrid cloud provides greater versatility and allows further deployment
+
+#### What is Azure?
 Microsoft Azure is known as Windows Azure and it is a Public Cloud. It is
 free to build, manage and deploy applications with your favorite tools and
 frames in a huge, global network. Azure is considered for offering both IaaS
