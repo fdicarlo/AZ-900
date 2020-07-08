@@ -512,3 +512,159 @@ more secure and protected system. Azure Advanced Threat Protection (ATP) has a n
 - Propose Changes
 #### Cyber-Attack Kill-Chain
 The cyber-attack kill-chain is a chain of phases that define how an attack is prepared and execute. This deployed model allows detecting and reacting upon the attack. The model reveals seven stages according to which reaction and detection on cyber-attack are available.
+
+## Privacy, Compliance, and Trust
+We all know that most of the companies use the Azure platform for its agility to make it easier for the developers to create, manage, update and delete the resources as per requirement. However, sometimes unwanted access to the resource may cause unintended cost consequences. In order to overcome this, Azure provides a solution of resource access governance, which is the process of managing, monitoring and auditing the resource usage in order to meet the goals and requirements.
+### Azure Policy
+Azure Policy is used to create policies in Azure. With Azure Policy, you can manage and assign policies to the resources with multiple rules, so that specific resources are complaint with your business standard and SLAs.
+Azure Policy is a default allow and explicit deny system.
+### Role-Based Access Control (RBAC)
+Role-based Access Control is one of the critical components in the governance of uses and access to Azure resources. With RBAC, you can outline fine grained access management to the resources. You can also define specific user access to an individual resource like what they can do with that specific resource and in what specific area of resource they have access.
+
+RBAC works by assigning roles to users and this role assignment is based on three elements, which are:
+- Security Principal 
+- Role Definition
+- Scope
+#### Role Assignment
+Role Assignment is the process of combining all these together to grant proper action to Azure resources. Access is granted by the creation of a role assignment and deleted by the deletion of that role assignment.
+#### Locks
+It is a simple tool to manage the changes and remove resources. It is used for the resource which you do not want to change or delete.
+### Azure Blueprint
+It is a template for creating Azure resources. Everything you need to deploy in the standard cloud environment of Azure is defined in the blueprint.
+### Azure Advisor for Security Assistance
+Azure Advisor is a separate portal within Azure that has Security Assistance as a part of the Azure Security Center.
+### Azure Monitor
+In order to improve your Azure experience, Azure Monitor uses the telemetry data. Azure Monitor maximizes flexibility and application efficiency by offering a comprehensive solution to capture, monitor, and use the cloud and on-site telemetry. It helps you understand how your applications operate and detect problems and the resources on which they depend proactively.
+#### Outcomes
+The outcome of using Azure Monitor:
+- Maximize Performance
+- Maximize Availability
+- Identify Issue
+### Azure Service Health
+Whenever there is a plan of maintenance or service incident, you get notified about it with the use of Azure Service Health. With Azure Service Health, you get notified about the planned or unplanned maintenance of the platform.
+It has the following features:
+- Dashboard
+- Custom Alerts
+- Real-time Tracking
+- Free Service
+### Compliance
+The general principle that cloud services deliver must adhere to the requirements faced by cloud customers is strongly compliant. This is a very important issue with new cloud computing services, and many IT professionals are looking at it very thoroughly. There are different standards and regulations that cloud customers need to comply. Compliance is not
+negotiable.
+#### Industry Compliance
+This refers to the legislation and rules the industry, in general, has to complywith. The most common three legislations and rules are:
+- General Data Protection Regulation (GDPR)
+- ISO Standards
+- NIST
+#### Azure Compliance Manager
+For compliance in Azure, Azure Compliance Manager is available, because Azure knows about compliance and about your resources, so it combines the tools and gives you a recommendation as per that.
+#### Azure Government Cloud
+Azure Government Cloud, if you are US government body or are contracted for one, then you can get access to Azure resources in Azure Government Cloud regions. They are separate dedicated datacenters.
+#### China Region
+It is the second specific region when it comes to compliance. As a country, China has very specific and strict requirements when there is data, internet, or online entities, so when you need to provide cloud services here, you have to use the China region in Azure. This means that Azure has physically separated datacenters located in China without any connection to the other regions of Azure.
+### Privacy
+Privacy is an extension of compliances. In Azure, privacy is the core power of the platform so there is no single service or place for it.
+### Trust
+In Azure, there are two services in terms of Trust. One is Trust Center and theother is Service Trust Portal. Trust Center is a shortcut of knowing all the things that Microsoft does to make sure that you do not lose trust in Azure
+and other services.
+
+Service Trust Portal is a location to review all the independent reports about Azure. It is a portal of proof that they are compliant with many millions of different standards and certifications.
+
+## Pricing
+Azure pricing depends upon the following criteria:
+- Pay for the resources you access
+- Pay for the number of hours you use
+- Pay depending upon the size of the resource
+- Service payment is tiered
+- Pricing as per the location of service
+### Subscriptions
+The pricing structure of Microsoft Azure works on a subscription price that is tied to what you are using within the Azure infrastructure. All resources in Azure resides within the subscription, you cannot access any resources until you are subscribed. Once you sign up for Azure, you immediately get an Azure subscription, and all the services you create are created within that subscription.
+
+Subscription in Azure can be defined as:
+- Multiple Subscriptions
+- Billing Admin
+- Billing Cycle
+#### Offer Types
+At any given time, Azure has a lot of active offer types. You can get the offer depending upon your subscription type.
+##### Management Groups
+Management Groups is a very useful feature on Azure when it comes to subscription. Management groups may indicate the following:
+- Group Subscriptions
+- Organize
+- Billing Logic
+### Cost Management
+We know that when resources and services are running, its cost management can be quite an expensive task. When you use resources or services in Azure, you need to buy them because without that, you cannot use it. You need a service that automates the cost management because tracking of every single cost is such a difficult thing to do. The management of cost in Azure can be done in many different ways; some of these are given below:
+#### Azure Free Account
+If you have never had a free Azure trial and have never been a paying Azure user, then you are eligible for a free Azure account. 
+#### Azure Cost Management
+Azure Cost Management is a handy tool in Azure that allows the study of your costs on a granular level. Cost management allows you to create a budget for your Azure expenses, set up configurable notifications as so you will know if you are hitting a budgeted limit and evaluate your costs in detail.
+### Pricing Factors
+Pricing in cloud computing is very tricky to predict and calculate. Any Azure account has a lot of resources such as networks, connections, virtual machines, firewalls, storage accounts, functions, etc.
+
+The primary factors influencing costs are the size of resources, type of resource, the Azure regions you are using, and the bandwidth.
+#### Pricing Calculator
+The Azure pricing calculator helps you get an estimate of costs depending on the products that you plan to use, as well as where those products will be deployed, and so on.
+#### Total Cost of Ownership (TCO) Calculator
+The pricing calculator is helpful for estimating your expenses for new applications in Azure, but if you have on-premises applications that you want to migrate to Azure and you want an estimate of how much you can save, the
+TCO calculator is a better choice.
+### Best Practices for Minimizing Azure Costs
+In order to implement cost control effectively and reduce costs, you need to:
+- Be equipped with the right tools for performance
+- Be responsible for costs
+- Take appropriate action to reduce expenses
+#### Spending Limits
+Azure spending limits are the recommended in order to prevent you fromspending over your credit and manage your Azure subscription's total spending.
+**Default Limit**: Some Azure accounts with monthly credits, will have default spending limits. This could be 0$ for a free account and 150$ for Microsoft subscription account.
+**No Increase**: When the credits are gone, either remove the spending limit entirely or leave it in effect.
+**No Spending Limit**: Pay-as-you-go subscription has no spending limit functionality.
+#### Quotas
+A quota is the limit on certain properties of an Azure service.
+#### Tags
+Tags are non-functional labels attached to resources or resource groups in order to manage the cost of resources. You can attach as many to each resource as you want.
+
+Some common best practices for using tags are:
+- Identify Roles
+- Related Resources
+- Filter
+- Unambiguous
+#### Reserved Instances
+With Reserved Instance, you are allowed to prepay for the virtual machine or SQL Database computing capacity for one or three years.
+#### Azure Advisor
+Azure Advisor is a tool that detects the low-usage virtual machines from a CPU or network cost standpoint. From there, you can choose to either shut down or resize the system to continue running the machines, based on estimated costs.
+
+## Support
+### Plans
+Microsoft offers numerous support plans for Azure customers in order to find right level of support for your organization. There are five different support plans available in Azure: Basic, Developer, Standard, Professional Direct, and Premier. Choosing the right plan is a balance between how much access you need for help and support and how much you are willing to spend. The things, which are included in all support plans are:
+- 24/7 Access
+- Online Self-Help
+- Forums
+- Azure Advisor
+- Service Health
+### Tickets
+To contact a support there is medium called “Tickets”. Tickets are what the enquiry issue makes support. A ticket is usually a number that uniquely identify your enquiry.
+### Channels
+Azure supports various channels that are free to everyone through which you get more help from Azure. The support channels are:
+- Azure Documentation
+- Forums
+- Social Media
+### Knowledge Center
+Knowledge center is the place of a common Azure knowledge. In knowledge center, you can find basic questions that are common for all those who are new to Azure, these questions are called Common questions.
+### Service Level Agreement (SLA)
+When you are using Azure Services, you need some form of guarantee that the service will be running stably. This is called Service Level Agreement, which helps to ensure the services you are subscribed for is available to you as mentioned in the agreement.
+
+Some properties of SLAs are:
+- Confidence
+- Contract
+- Multiple SLAs
+- Complex
+- Mandatory
+### Service Life Cycle
+Every product and the service in Azure has its lifecycle known as Service Lifecycle. Azure is an always-changing environment, and new services are always being introduced.
+
+It is important to understand the service lifecycle in Azure, how you can keep up with changes, and how a service’s lifecycle might impact your support and your SLA.
+#### Gathering Customers Data
+When the services are developed by the Microsoft for the Azure platform, it is necessary to ask questions to customers regarding the new features before adding. This act can save large investments if the services fail.
+
+There are two main stages in Service Life Cycle:
+- Preview
+    - Private Preview
+    - Public Preview
+- General Availability
