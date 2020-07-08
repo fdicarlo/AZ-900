@@ -391,3 +391,124 @@ Multi-Factor Authentication (MFA) provides a layer-based authentication using mo
 #### How MFA Works
 Multi-Factor Authentication (MFA) conducts the authentication of the user in multiple steps. The first step is to verify the user with a user ID and password. The second step is to send a code on the user’s phone for further
 verification. The third step is the biometric verification. This step is optional.
+
+## Azure Solutions
+### Internet of Things
+The Internet of Things (IoT) is a collection of interconnected computing devices, mechanical and digital machines, objects, or individuals. Azure Internet of Things (IoT) is a collection of cloud services managed by Microsoft, which connects, monitors, and controls billions of IoT assets.
+
+There are many IoT related services that the Azure offers to help you out. Two of the main IoT services are described here.
+#### IoT Hub
+IoT Hub is a cloud-hosted, managed service that serves as a central hub, which collects the data feeds from all devices. It is for bi-directional communication between your IoT application and the devices it manages. Features:
+- Scaling
+- Securing
+- PaaS
+- Integrating
+- Ease of Deployment
+#### IoT Central
+Azure IoT Central is a fully managed, highly scalable IoT SaaS solution that reduces the complexity and costs of developing, managing and maintaining IoT solutions of an enterprise-grade nature. Its user-friendly interface allows easy monitoring of device requirements, developing guidelines, and managing millions of devices and their data over
+their life cycle.
+### Big Data
+Big Data is a term used to describe the collection of millions of data that is large in size and keeps growing exponentially over time. Big data in terms of business value is used for better service, better products and more profits. In Azure, there are many services and tools that deals with Big Data, some of them are defined below:
+- **Azure Data Lake Analytics**:Azure Data Lake Analytics is an on-demand job analytics service that simplifies big data. In Data Lake analytics, there is parallel processing which means that same data is processed by two or more processors at the same time.
+- **HDInsight**: Azure HDInsight is Microsoft's cloud-based big data analytics service, which helps organizations process large amounts of streaming or historical data. Azure HDInsight allows storing massive amounts of data easily, efficiently and cost-effectively.
+- **Azure Databricks**: Azure Databricks is an analytics platform based on Apache Spark, which is an open source cluster computing framework to enhance the Microsoft Azure platform. Databricks run and process a dataset on many computers simultaneously. When using Databricks, you do not need a lot of computers nor its maintenance.
+
+#### Big Data Outcomes
+Collectively, the services of big data can bring the following outcomes for you. These are:
+- Speed
+- Cost Reduction
+- Better Decision Making
+- New Products and Services
+- Artificial Intelligence
+
+Artificial Intelligence (AI) is the capability of a machine to imitate intelligent human behavior. In the Microsoft, AI is often called Machine Learning or AI is the sub-category of Machine learning, although AI and Machine learning
+are often placed in the same bucket. 
+
+Microsoft focuses on three main parts to how machine learning can be used on the cloud platform.
+- Models
+- Knowledge Mining
+- Built-in Apps
+#### Azure Cognitive Services
+Cognitive services bring AI within every developer's reach — without requiring expertise in machine learning. All it takes is an API call to embed the feature to see, hear, speak, search, understand, and accelerate decision making into your apps.
+#### Azure Machine Learning Studio
+The Azure Machine Learning Studio is the top-level tool for the machine learning service. It is visual tool through which you can manage all of your needs for ML. It provides a centralized location for data scientists and developers to work with all the artifacts for developing, training, and deploying machine learning models.
+#### Machine Learning Services
+- End-to End Service
+- Tooling
+- Automation
+### Serverless
+Serverless is such an important part of modern cloud computing. Serverless model allows developers to build applications faster by eliminating the need for them to manage the infrastructure. It is an extreme PaaS. The cloud service provider automatically offers, scales, and manages the infrastructure required for running the code with serverless applications. Benefits of Serverless Model:
+- No Infrastructure Management
+- Dynamic Scalability
+- Faster Time to Market
+- More Efficient Use of Resources
+#### Azure Functions
+Azure Functions is the compute component of serverless services offered by Azure. It is called function as it has a single task to perform every time. Meaning that you can use Functions to write code without having to worry about deploying that code or creating VMs to run your code.
+#### Azure Logic Apps
+Azure Logic Apps is a cloud service that connects the systems both inside and outside the Azure Platform; you can integrate apps, data, and services or even an entire system across organizations. With this, you can automate, and
+orchestrate business processes, tasks, activities, and workflows.
+#### Azure Event Grid
+An event, in a computing concept, it is an action or occurrence that can be identified by a program and has significance for system application. Azure Event Grid lets you easily build applications with event-based architectures. Event Grid has built-in support for events such as storage blobs and resource groups, coming from Azure services.
+
+Event Grid connects data sources and event handlers. You can use Event Grid to trigger a serverless function that analyzes images when added to a blob storage container.
+### DevOps
+DevOps is a combination of the terms development and operations, meant to reflect a collective or cooperative approach to the activities performed by the application development departments of an organization and IT operations.
+#### Azure DevOps
+Azure DevOps offers developer tools to support teams in preparing projects, working on application creation, and designing and deploying new products. Depending on your business needs, you may use one or more of the following services:
+- Azure Boards
+- Azure Pipelines
+- Azure Repos
+- Azure Test Plans
+- Azure Artifacts
+#### Azure DevTest Labs
+Azure DevTest Labs helps team developers handle Virtual Machines (VMs) and PaaS tools effectively, without waiting for approvals. It focuses in the environment management. With this, developers and engineers are allowed to create an environment for test and development.
+
+## Security
+Security is a set of policies or rules, which allow the traffic to be directed to the network in the right way. Security of the network is very important, especially when there is a communication of infrastructure with the internet.
+### Securing Network Connectivity
+The networks on Azure give access to everything for users. All the resources and services of Microsoft Azure are connected to a network to provide communication between users, processes and other services.
+
+In order to achieve optimum network performance, secure network connectivity is very important.
+#### Azure Firewall
+An Azure firewall is a crucial service that protects and safes the network from unwanted traffic load.
+- Rules
+- Variation
+- Compulsory Bit
+#### Distributed Denial of Service Attacks (DDoS)
+Distributed Denial of Service (DDoS) is the most common attack on services attached to the internet. It occurs when a huge number of request from multiple sources come constantly in order to interrupt the server normal working.
+##### DDoS Protection Service
+- **Target a Website**: A lot of servers target the same website or computer in order to stop its working. For example, GitHub was a target with 127 Mb requests every second
+- **Azure Protection Service**: Microsoft Azure has protection service against DDoS attacks. This service has a different level of protection services depending upon the user needs of the application. Azure protection service detects DDoS attacks and work against it
+- **No Halt**: Azure Protection service would not interrupt the routine process of other services on the website due to Azure global presents
+#### Network Security Groups
+The security group provides a secure management environment for the network. Network Security Group (NSG) is required in the configuration of a Virtual Network (VNet) where different Virtual Machines (VMs) within the subnet are connected with each other.
+#### Application Security Group
+Application Security Group (ASG) protects the application running on that particular VM or subnet in the network. ASG provides the security of application and NSG provides the security of traffic flow.
+### Azure Security Center
+Azure Security Center allows users to monitor the security features for Azure resources and on-premises as well. Azure Security has itself a portal within the Azure portal known as Azure Security Center. Azure Security Center indicates a threat alert that Azure detects and finds a way to protect its users from. Azure Security center works in a hybrid cloud infrastructure as well.
+#### Sections in Azure Security Center
+Each section in the Azure Security Center portal shows an individual performance behavior of security features in graphical representation.
+- Policy, Compliance, and Subscription Coverage
+- Integrate with Other Cloud Providers
+- Alerts for Resources Security
+- Networking
+##### How to use the Security Center?
+To take advantage of Azure Security Center for the security of cloud infrastructure, Azure users need to follow these three-step process:
+- Define Policies
+- Resource Protection
+- Response
+### Key Vault
+To hide the key password and other information, Microsoft gives you a service known as Azure Key Vault. It is the best option for key storage. With Azure Key Vault, you can share your secrets with others without revealing the actual secrets. Azure Key Vault is present in the storage account of VMs. Azure Key Vault has a number of key features, some of which are:
+- Secure Hardware
+- Application Isolation
+- Global Scaling
+### Azure Information Protection
+Azure Information Protection (AIP) provides a way of protected sharing of resources. Azure Information Protection enables the sharing of files, documents and sensitive information inside and outside Azure while maintaining full control over that data. Microsoft 365 takes full advantage of Azure Information Protection service.
+### Advanced Threat Protection (ATP)
+Advanced Threat Protection (ATP) is the advance and secure option for providing the security of the links as compared to the standard one. It gives an extra layer of security and management of the users in order to make a
+more secure and protected system. Azure Advanced Threat Protection (ATP) has a number of features that provide the safety of links and analyze the security threats.
+- Monitor Users
+- Supervised User’s Behavior
+- Propose Changes
+#### Cyber-Attack Kill-Chain
+The cyber-attack kill-chain is a chain of phases that define how an attack is prepared and execute. This deployed model allows detecting and reacting upon the attack. The model reveals seven stages according to which reaction and detection on cyber-attack are available.
